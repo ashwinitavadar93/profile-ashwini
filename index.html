@@ -4,17 +4,88 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Index</title>
+
+    <!-- Font Awesom -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- CDN Link - Google font families -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Concert+One&family=Poppins&family=Roboto:wght@500;900&display=swap" rel="stylesheet">
     <style>
-        header{
+      header span{
             color: black;
-            background-color: #3dba3f;
-            size: large;
+            /* background-color: #3dba3f; */
+            /* size: large;
             font-weight: bold;
-            height: 40px;
-             text-align: left;
+            height: 40px; 
+         */
+    
+               padding-right: 30 px;  
+              
+             font-size: medium;
+            text-align: right;
+            margin-left: 20px;
+            font-family: 'Roboto', sans-serif;
+            
+          
+            
              
             
+           }
+           header{
+            text-align: right;
+            background-color:#3dba3f ;
+            font-size: large;
+            font-weight: 100px;
+            height: 40px; 
+            
+        
+           }
+            header img{
+
+            height: 30px;
+            width: 30px; 
+            /* padding-bottom: 20px;
+            padding-top: 20px; */
+           float: left;
+           padding-left: 20px;
+           
+           
+          
+        
+           
+           
+
+
+
+           }
+
+             
+
+        nav a{
+            margin-right: 30px;
+            text-decoration: none;
+            font-family: 'Concert One', sans-serif;
         }
+        #homeLink{
+            margin-left: 10px;
+        }
+      .name{
+            margin-right: 20px;
+          
+        } 
+        .link a{
+            text-decoration: underline ;
+             margin: 20px;
+             width: 15px;
+             font-size: large;
+             color:blueviolet
+            
+
+            
+        }
+
         
 
     </style>
@@ -23,17 +94,31 @@
 
     <!-- Header Section -->
     <!-- Name Slector -->
-    <header id="header">
-        <span> Name: Ashwini Tavadar &nbsp;&nbsp;&nbsp;&nbsp; Mobile: 8552 9962 76 &nbsp;&nbsp;&nbsp;&nbsp; Email: abc@gmail.com</span>
+     <!-- <header id="header"> -->
+        <!-- <header class="header"> -->
+            <header>
+           <span> <img src="assets/Image20231204073127.png" alt=""> 
+           </span>
+            <span><i class="fa fa-user" aria-hidden="true"></i> Ashwini Tavadar  </span>
+            <span> <i class="fa fa-phone-square" aria-hidden="true"></i> 8788 7115 71  </span>
+    <span> <i class="fa fa-envelope" aria-hidden="true"></i> ashwinitavadar93@gmail.com</span>
     </header>
     <hr>
+  
+
+    <!-- <header id="header">
+        <span> Name: Ashwini Tavadar     Mobile: 8552 9962 76     Email: abc@gmail.com</span>
+    </header>
+    <hr> -->
 
     <!-- Navigation Section -->
+    
+
     <nav>
-        <a href="home.html" target="mainFrame">HOME</a> &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;
-        <a href="techStack.html" target="mainFrame">TECH STACK</a> &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;
-        <a href="project.html" target="mainFrame">PROJECT</a> &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;
-        <a href="education.html" target="mainFrame">EDUCATION</a> &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;
+        <a href="home.html" target="mainFrame"id="homeLink">HOME</a>
+        <a href="techStack.html" target="mainFrame">TECH STACK</a> 
+        <a href="project.html" target="mainFrame">PROJECT</a> 
+        <a href="education.html" target="mainFrame">EDUCATION</a>
         <a href="others.html" target="mainFrame">OTHERS</a>
     </nav>
     <hr>
@@ -45,12 +130,14 @@
     </iframe>
     <hr>
     
+    
 
       <!-- Footer Section -->
-      <footer>
-        <a href="https://www.linkedin.com/feed/">Linked IN</a> &nbsp;&nbsp;&nbsp;&nbsp;
-        <a href="https://github.com/ashwinitavadar93/profile-ashwini">GitHub</a>&nbsp;&nbsp;&nbsp;&nbsp;
-        <a href="https://www.naukri.com/nlogin/login">Naukri</a>
+      <footer class="link">
+        <a href="https://www.linkedin.com/feed/"target="_blank" > <i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
+        <a href="https://github.com/ashwinitavadar93/profile-ashwini" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
+        <a href="https://www.naukri.com/nlogin/login" target="_blank" ><i class="fa fa-laptop" aria-hidden="true"></i></a>
+        <a href="https://web.whatsapp.com/" target="_blank"><i class="fa fa-whatsapp" aria-hidden="true"></i></a>
     </footer>
 
 

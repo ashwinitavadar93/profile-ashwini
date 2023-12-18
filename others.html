@@ -4,21 +4,90 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Others</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+    <style>
+        .name,dname {
+            font-size: medium;
+            font-weight: bolder;
+            font-family: 'Roboto', sans-serif;
+            margin: 10px;
+     
+       
+          
+         
+         
+        }
+        #fname,nname {
+            font-size: medium;
+            font-weight: normal;
+            font-family: 'Roboto', sans-serif;
+            padding:10px;
+
+            
+           
+        }
+        .dname{
+            font-weight: bolder;
+        }
+        #pro,ul li,span{
+            font-family: 'Poppins', sans-serif;
+            
+        }
+        #fam{
+            font-weight: bolder;
+        }
+        
+    </style>
 </head>
 <body>
-    <h2><strong>Profile Photo:</strong></h2>
-    <img src="assets/Image20231204073127.png" alt="">
-    &nbsp;&nbsp;&nbsp;&nbsp;<p><strong>Name:</strong> Mothit Sharma</p>
-    <p><strong>Mobile Number: 9900 8850 66</strong></p>
+    <h2 id="pro">Profile Photo:</h2>
+    <img src="assets/Image20231204073127.png" alt=""><br>
+
+    <span class="name">Name: </span><span id="fname">Mohit sharma</span><br>
+   <!-- <p><strong >Name:</strong> Mothit Sharma</p> -->
+
+
+    <span class="name">Mobile No:  </span><span id="fname">9900 8850 66</span><br>
+    <!-- </p><strong>Mobile Number:</strong> 9900 8850 66</p> -->
+
+    <span class="name">Email Id:  </span><span id="fname">mohit.sharma@gmail.com</span><br>
+    <!-- <p><strong>Email: </strong>mothit.sharma@gmail.com</p> -->
+    
+    <span class="name">Date Of Birth:  </span><span id="fname">Feb-19-2004</span><br>
+    <!-- <p><strong>Date Of Birth: </strong>Feb-19-2004</p> -->
+
+    <span class="name">Address:  </span><span id="fname">OM Vrindawan Colony,Pune</span><br>
+    <!-- <p><strong>Address: </strong>OM Vrindawan colony,Pune</p> -->
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- <p><strong >Name:</strong> Mothit Sharma</p>
+    </p><strong>Mobile Number:</strong> 9900 8850 66</p>
     <p><strong>Email: </strong>mothit.sharma@gmail.com</p>
     <p><strong>Date Of Birth: </strong>Feb-19-2004</p>
-    <p><strong>Address: </strong>OM Vrindawan colony,Pune</p>
+    <p><strong>Address: </strong>OM Vrindawan colony,Pune</p> -->
 
     
         <details>
-        <summary><strong>Family Details</strong></strong></summary>
-            <ul><li>Father Name : Tarka Sharma</li></ul>
-            <ul><li>Mother Name : Manika Sharma</li></ul>
+        <summary><span id="fam">Family Details</span></summary>
+
+        <ul><li><span class="dname">Father name:</span><span class="nname">Tarka Sharma</span></li></ul>
+            <!-- <ul><li class="dname">Father Name : Tarka Sharma</li></ul> -->
+
+            <ul><li><span class="dname">Mother name:</span><span class="nname">Manika Sharma</span></li></ul>
+
+            <!-- <ul><li class="dname">Mother Name : Manika Sharma</li></ul> -->
         </details>
 
 
