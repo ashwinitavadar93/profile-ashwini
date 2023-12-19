@@ -25,11 +25,13 @@
             color:green ;
             background-color: beige;
             padding: 5px; 
+            
         } 
         .object{
             color: brown;
             background-color: aqua;
             font-family: 'Poppins', sans-serif;
+            
 
 
         }
@@ -37,9 +39,17 @@
         p,li{
 
             font-family: 'Roboto', sans-serif;
+        
         }
-        ul li{
+        /* ul li{
             list-style-type: square;
+        } */
+        #list li::before{
+            content:"👉";
+             list-style-type: none; 
+        }
+        #list {
+            list-style-type: none;
         }
 
     </style>
