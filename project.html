@@ -13,7 +13,7 @@
 
    li{
     font-family: 'Roboto', sans-serif;
-    list-style-type: square;
+    /* list-style-type: square; */
     
   }
   .namee{
@@ -34,7 +34,15 @@ h1{
     background-color: aqua;
 }
 
+  
 
+  #lii li::before{
+            content:"👉";
+            
+  }
+#lii{
+  list-style-type: none;
+}
 </style>
 
 </head>
@@ -63,7 +71,7 @@ h1{
     
         <hr>
     <p><strong>Role and Responsiblities:</strong></p>
-    <ul>
+    <ul id="lii">
         <li>Designed and implemented the user interface using HTML5 and CSS</li>
         <li>Work closely with backend developers for code integration</li>
         <li>identifying and troubleshooting issues with front end code</li>
